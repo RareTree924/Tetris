@@ -1,0 +1,5 @@
+# Tetris partition table for the 16 MB flash on the ESP32-S3.
+# One big app, no OTA. The bootloader sits at 0x0 and this table at 0x8000.
+# Name,     Type, SubType,  Offset,   Size
+nvs,        data, nvs,      0x9000,   0x7000,
+factory,    app,  factory,  0x10000,  0xFF0000,

@@ -1,0 +1,63 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "IDF: Build",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "/C",
+                "call \"C:\\esp\\v6.1\\esp-idf\\export.bat\" && idf.py build"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "IDF: Flash",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "/C",
+                "call \"C:\\esp\\v6.1\\esp-idf\\export.bat\" && idf.py -p COM7 flash"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "IDF: Flash and Monitor",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "/C",
+                "call \"C:\\esp\\v6.1\\esp-idf\\export.bat\" && idf.py -p COM7 flash monitor"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        }
+    ]
+}
