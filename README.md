@@ -1,2 +1,5 @@
 Note i used Claude to help me get this project onto GitHub because I'm still new to GitHub
-This is my Tetris project I want to make a neon style Tetris game that is portable, though I don't have a 3d printer any any reliable ways to make a good case for my project. In this Tetris game you will be able to get upgrades and then get farther into the game but it gets harder and harder. I want to add some sort of twist to the game that makes it really unique but I'm still working on that idea.
+This is my Tetris project I want to make a neon style Tetris game that is portable, though I don't have a 3d printer any any reliable ways to make a good case for my project. In this Tetris game you will be able to get upgrades and then get farther into the game but it gets harder and harder. I want to add some sort of twist to the game that makes it really unique but I'm still working on that idea. It says I need PCB designs but I've never made a PCB in my life and I don't know where to start.
+
+<img width="2181" height="2908" alt="IMG_0601" src="https://github.com/user-attachments/assets/4261232e-291e-4d99-8b6d-28a8ff65301c" />
+<img width="2254" height="3005" alt="IMG_0602" src="https://github.com/user-attachments/assets/71be57a6-b344-40ec-84b4-52f94ae3659b" />
